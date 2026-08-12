@@ -8,6 +8,10 @@
 
 Take a video apart back into its decisions, swap in your own subject, then compile it for whichever model you can actually call.
 
+https://github.com/user-attachments/assets/c521d487-b6fb-403b-8994-9ef484b8f7c0
+
+<sub>Editorial-MG title sequence. Every named term in its film-type synthesis is a loan with interest — you borrow the visual priors, and the default bias comes with them. What holds the style is not the terms but the counterweights written next to them.</sub>
+
 ---
 
 ## What it's for
@@ -71,6 +75,24 @@ The case library isn't templates. It's **prompts that actually ran, together wit
 - A zero-dependency rhythm measurement script (`tools/analyze_rhythm.py`), so the numeric findings can be reproduced
 
 Six further entries demonstrate shape only and are **marked as unmeasured** — they show what a slot looks like, not that writing it that way works.
+
+### Four models, one identical prompt
+
+https://github.com/user-attachments/assets/08c4c8d0-f8bc-4d11-8235-e54bfd314ff3
+
+<sub>Same spec, same prompt text, only the submission parameters changed. The differences you see are the models — which is the whole reason a comparison has to be run in one shared execution environment. The full profiles are in <code>examples/cross-model/</code>.</sub>
+
+### A four-segment chain
+
+https://github.com/user-attachments/assets/94c26ae9-0238-40a5-830c-6ece71c25187
+
+<sub>Four segments chained on boundary frames, six versions of iteration. Chaining is not extension: an extension hides the seam, whereas here the seam <em>is</em> the hard cut. Every subject carried over gets an explicit continue-or-clear — write neither and it stays, possibly amplified.</sub>
+
+### One complete spec, start to finish
+
+https://github.com/user-attachments/assets/6912dd5f-757d-4789-bad0-3d91a1c97608
+
+<sub>Nine stages, an end state for each, six of seven global slots filled. The seventh — the director's premise — is empty, and that empty slot is the most instructive thing about this case: no slot is mandatory. Reverse-engineered from one reference film, written before the case library was opened.</sub>
 
 ---
 
