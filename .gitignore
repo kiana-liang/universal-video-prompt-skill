@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 跑生成时的本地产物：媒体文件、状态文件、日志一律不入库
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+state*.json
+run*.log
+
+# 注意：SYNC-STATUS.md 是生成产物，但**要提交** —— 中英同步状态需要在
+# GitHub 页面上可见，CI 也会把更新后的版本推回来。不要把它加进这里。
